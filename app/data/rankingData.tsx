@@ -36,7 +36,7 @@ const stakingQueryFlags = {
 
 export async function fetchAll(query: RequestDocument, key: string) {
   const subquery = new GraphQLClient(
-    "https://api.subquery.network/sq/ashikmeerankutty/staking-subquery"
+    "https://api.subquery.network/sq/ashikmeerankutty/Polkstakes"
   );
   let hasNext = true;
   let data: unknown[] = [];
@@ -58,7 +58,7 @@ export async function fetchAll(query: RequestDocument, key: string) {
 
 export async function fetchEnd(query: RequestDocument, key: string) {
   const subquery = new GraphQLClient(
-    "https://api.subquery.network/sq/ashikmeerankutty/staking-subquery"
+    "https://api.subquery.network/sq/ashikmeerankutty/Polkstakes"
   );
   let hasPrev = true;
   let data: unknown[] = [];
@@ -118,7 +118,7 @@ export async function getRankingData(
   );
 
   const subquery = new GraphQLClient(
-    "https://api.subquery.network/sq/ashikmeerankutty/polkstakes"
+    "https://api.subquery.network/sq/ashikmeerankutty/Polkstakes"
   );
   setStatus(Status.FETCHING_REFERENDUMS);
   const referendums = await fetchAll(GetReferendums, "referendums");
