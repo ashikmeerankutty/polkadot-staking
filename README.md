@@ -1,8 +1,8 @@
-# Welcome to PolkStakes!
+# Welcome to Polkadot Validator Ranking!
 
-PolkStakes - Polkadot Staking Dashboard
+Polkadot Staking Dashboard
 
-PolkStakes ranking is a new standard for rating Polkadot Validators. This ranking is based on various factors like era performance, commmissions, previous staking rewards, etc.
+Polkadot Validator Ranking ranking is a new standard for rating Polkadot Validators. This ranking is based on various factors like era performance, commmissions, previous staking rewards, etc.
 
 The ranking is based on last 5000 staking rewards
 

@@ -68,7 +68,7 @@ const columns = [
     },
   },
   {
-    title: "Polkstakes Rating",
+    title: "Validators Rating",
     dataIndex: "totalRating",
     key: "totalRating",
   },
@@ -191,7 +191,7 @@ export const ValidatorsTable: React.FC<ValidatorsTableProps> = ({
       columns={columns}
       dataSource={tableData}
     />
-    <span css={subTextStyles}>* Polkstakes ranking is based on last 5000 staking rewards. It's calculated based on previous era performance, commissions, payout, staking rewards, etc.</span>
+    <span css={subTextStyles}>* Validators ranking is based on last 5000 staking rewards. It's calculated based on previous era performance, commissions, payout, staking rewards, etc.</span>
     </Fragment>
   );
 };

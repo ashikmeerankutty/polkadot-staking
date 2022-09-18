@@ -109,7 +109,7 @@ export function ValidatorsDashboard() {
       <div>
         <div css={headerStyle} className="header">
           <h3 css={headerTitleStyle}>
-            <strong>POLKSTAKES</strong> Ranking
+            <strong>Polkadot Validator</strong> Ranking
           </h3>
         </div>
         <div css={statsStyle}>
@@ -122,7 +122,7 @@ export function ValidatorsDashboard() {
             <span>{avgCommission ? avgCommission.toFixed(2) : 0}%</span>
           </div>
           <div>
-            <h3>Avg Polkstakes Rating</h3>
+            <h3>Avg Validtors Rating</h3>
             <span>{avgRating ? avgRating.toFixed(2): 0}</span>
           </div>
           <div>
