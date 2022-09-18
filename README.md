@@ -33,10 +33,6 @@ npm start
 
 ## Screenshots
 
-Loading Data
-
-![image](./screenshots/1.png)
-
 Ranked validators
 
 ![image](./screenshots/2.png)
